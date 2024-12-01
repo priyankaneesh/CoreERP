@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CoreERP.Models;
 
 public partial class Inventory
 {
+    [Key]
     public Guid ItemId { get; set; }
 
     public string ItemCode { get; set; } = null!;

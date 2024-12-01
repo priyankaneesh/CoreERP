@@ -8,8 +8,9 @@ namespace CoreERP.Extensions
     {
         public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext < CoreErpdbContext>(options => options.UseSqlServer(configuration.GetConnectionString("defaultConnection")));
+            services.AddDbContext<CoreErpdbContext>(options => options.UseSqlServer(configuration.GetConnectionString("defaultConnection")));
             services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
             return services;
         }
+    }
 }

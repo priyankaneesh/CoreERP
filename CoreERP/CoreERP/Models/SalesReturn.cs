@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CoreERP.Models;
 
 public partial class SalesReturn
 {
+    [Key]
     public Guid ReturnId { get; set; }
 
     public Guid SalesId { get; set; }

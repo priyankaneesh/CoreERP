@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using CoreERP.Dtos;
+using CoreERP.Migrations;
 
 namespace CoreERP.Helper
 {
@@ -6,7 +8,7 @@ namespace CoreERP.Helper
     {
         public AutoMapperProfiles()
         {
-             
+            CreateMap<LoginDtos, Login>().ReverseMap();
         }
     }
 }

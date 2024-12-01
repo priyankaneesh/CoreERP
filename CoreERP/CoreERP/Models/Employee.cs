@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CoreERP.Models;
 
 public partial class Employee
 {
+    [Key]
     public Guid EmployeeId { get; set; }
 
     public string Name { get; set; } = null!;

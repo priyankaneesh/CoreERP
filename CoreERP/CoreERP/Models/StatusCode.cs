@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CoreERP.Models;
 
 public partial class StatusCode
 {
+    [Key]
     public int StatusCode1 { get; set; }
 
     public string StatusDescription { get; set; } = null!;

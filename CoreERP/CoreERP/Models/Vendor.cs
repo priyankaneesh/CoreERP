@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CoreERP.Models;
 
 public partial class Vendor
 {
+    [Key]
     public Guid VendorId { get; set; }
 
     public string Name { get; set; } = null!;
