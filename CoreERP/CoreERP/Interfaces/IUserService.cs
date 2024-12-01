@@ -5,6 +5,6 @@ namespace CoreERP.Interfaces
 {
     public interface IUserService
     {
-        public Login GetUserLogin(Login  loginmodel);
+        public Login GetUserLogin(LoginDtos  loginmodel);
     }
 }

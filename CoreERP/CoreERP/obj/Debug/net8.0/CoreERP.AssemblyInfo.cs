@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreERP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26ab1ce50b303c11ca8bcf19a0a61abd60ada97d")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+974b911adbfa004308d751eac2bedf4b7ad53101")]
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
 [assembly: System.Reflection.AssemblyProductAttribute("CoreERP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreERP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

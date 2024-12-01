@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "5PPMEsFIXN5NMuNTzOu1nV/+6AlCKMJ2gmW/zFHXtI4=",
+=======
+  "Hash": "ZCKrsNx0qtSvil7vAn64dCqkRBkaLtRTpd8kPCS8bfU=",
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
   "Source": "CoreERP",
   "BasePath": "_content/CoreERP",
   "Mode": "Default",
@@ -112,6 +116,7 @@
       "OriginalItemSpec": "wwwroot\\image\\CoreErp.webp"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\image\\CoreErpLogo.webp",
       "SourceId": "CoreERP",
       "SourceType": "Discovered",
@@ -132,6 +137,9 @@
     },
     {
       "Identity": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\js\\site.js",
+=======
+      "Identity": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\js\\site.js",
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
       "SourceId": "CoreERP",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\",

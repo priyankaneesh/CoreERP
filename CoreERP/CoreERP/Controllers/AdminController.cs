@@ -11,6 +11,12 @@ namespace CoreERP.Controllers
     {
         IMapper mapper;
        private readonly IUserService _userService;
+
+        public AdminController(IMapper mapper, IUserService userService)
+        {
+            this.mapper = mapper;
+            _userService = userService;
+        }
         public IActionResult Index()
         {
             return View();
@@ -26,11 +32,28 @@ namespace CoreERP.Controllers
             if(ModelState.IsValid)
             {
                 
-                var login = mapper.Map<Login>(loginDtos);
-                var Log = _userService.GetUserLogin(login);
-                if(Log != null)
+
+                
+                var Log = _userService.GetUserLogin(loginDtos);
+                //HttpContext.Session.SetString("Role", Log.Role.ToString());
+                if (Log != null)
                 {
+<<<<<<< HEAD
                     RedirectToAction("RegisterCompany","Admin");
+=======
+
+                    //if(Log.Role=="Role")
+                    //{
+                    //    HttpContext.Session.SetString("Role", "Admin");
+                    var loggedInUserRole = HttpContext.Session.GetString("UserRole");
+                    ViewBag.Role = loggedInUserRole;
+                    return RedirectToAction("Index", "Admin");
+                    //}
+                }
+                else
+                {
+                    ViewBag.errorMessage = "Login Failed";
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
                 }
             }
             return View();
@@ -40,6 +63,7 @@ namespace CoreERP.Controllers
         {
             return View();
         }
+
 
     }
 

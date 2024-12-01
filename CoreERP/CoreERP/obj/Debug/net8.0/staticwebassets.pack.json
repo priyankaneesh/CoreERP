@@ -17,11 +17,15 @@
       "PackagePath": "staticwebassets\\image\\CoreErp.webp"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\image\\CoreErpLogo.webp",
       "PackagePath": "staticwebassets\\image\\CoreErpLogo.webp"
     },
     {
       "Id": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\js\\site.js",
+=======
+      "Id": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\js\\site.js",
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {

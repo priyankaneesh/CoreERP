@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\views\\admin\\registercompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\admin\\registercompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,12 +14,25 @@
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,44 +47,104 @@
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\extensions\\addserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\extensions\\addserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\helper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\helper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\models\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\migrations\\20241201074247_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\migrations\\20241201074247_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\models\\coreerpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\coreerpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -81,6 +155,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\dtos\\logindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\dtos\\logindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,11 +177,15 @@
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\salesitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\models\\purchasereturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\models\\purchasereturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\purchasereturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -119,11 +201,15 @@
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\extensions\\addserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\extensions\\addserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\coreerp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\coreerp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\coreerp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -131,7 +217,11 @@
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|c:\\users\\aslam\\source\\coreerp\\coreerp\\coreerp\\migrations\\20241201060048_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\migrations\\20241201060048_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\migrations\\20241201060048_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -142,6 +232,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -180,6 +271,33 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T15:09:07.888Z"
+=======
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoreERP\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CoreERP\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T07:19:43.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "CoreERP\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:38:14.548Z"
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
             },
             {
               "$type": "Document",
@@ -189,6 +307,7 @@
               "RelativeDocumentMoniker": "CoreERP\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Controllers\\AdminController.cs",
               "RelativeToolTip": "CoreERP\\Controllers\\AdminController.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T06:06:23.908Z"
@@ -253,6 +372,120 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T06:38:14.548Z"
+=======
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:06:23.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "CoreERP\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Shared\\_LayoutAdmin.cshtml*",
+              "RelativeToolTip": "CoreERP\\Views\\Shared\\_LayoutAdmin.cshtml*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T08:57:28.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CoreERP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CoreERP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T15:09:07.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "CoreERP\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "CoreERP\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T06:21:32.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Program.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Program.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Program.cs",
+              "RelativeToolTip": "CoreERP\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:41:29.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\appsettings.json",
+              "RelativeDocumentMoniker": "CoreERP\\appsettings.json",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\appsettings.json",
+              "RelativeToolTip": "CoreERP\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T12:41:29.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Models\\Sale.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\Sale.cs",
+              "RelativeToolTip": "CoreERP\\Models\\Sale.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:00:21.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Interfaces\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Interfaces\\IUserRepo.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Interfaces\\IUserRepo.cs",
+              "RelativeToolTip": "CoreERP\\Interfaces\\IUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:31:42.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "CoreERP\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:31:20.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddServiceExtensions.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Extensions\\AddServiceExtensions.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Extensions\\AddServiceExtensions.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Extensions\\AddServiceExtensions.cs",
+              "RelativeToolTip": "CoreERP\\Extensions\\AddServiceExtensions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:34:31.993Z"
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
             },
             {
               "$type": "Document",
@@ -262,12 +495,17 @@
               "RelativeDocumentMoniker": "CoreERP\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Services\\UserService.cs",
               "RelativeToolTip": "CoreERP\\Services\\UserService.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T06:29:26.01Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 10,
               "Title": "StatusCode.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Models\\StatusCode.cs",
@@ -377,6 +615,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
+=======
+              "DocumentIndex": 14,
+              "Title": "CoreErpdbContext.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\CoreErpdbContext.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Models\\CoreErpdbContext.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\CoreErpdbContext.cs",
+              "RelativeToolTip": "CoreERP\\Models\\CoreErpdbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:25:48.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Models\\Login.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\Login.cs",
+              "RelativeToolTip": "CoreERP\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:37:14.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Helper\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Helper\\AutoMapperProfiles.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Helper\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "CoreERP\\Helper\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:35:22.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Models\\Company.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\Company.cs",
+              "RelativeToolTip": "CoreERP\\Models\\Company.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:54:48.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoreERP\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CoreERP\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T15:08:58.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "Title": "LoginDtos.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Dtos\\LoginDtos.cs",
               "RelativeDocumentMoniker": "CoreERP\\Dtos\\LoginDtos.cs",
@@ -412,7 +713,23 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 23,
+=======
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CoreERP\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CoreERP\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T15:37:30.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "Title": "SalesItem.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Models\\SalesItem.cs",
               "RelativeDocumentMoniker": "CoreERP\\Models\\SalesItem.cs",
@@ -421,6 +738,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T06:00:24.963Z"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -449,6 +767,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 22,
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CoreERP\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:37:24.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "Title": "SalesReturn.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Models\\SalesReturn.cs",
               "RelativeDocumentMoniker": "CoreERP\\Models\\SalesReturn.cs",
@@ -460,7 +796,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 25,
+=======
+              "DocumentIndex": 26,
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "Title": "PurchaseReturn.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Models\\PurchaseReturn.cs",
               "RelativeDocumentMoniker": "CoreERP\\Models\\PurchaseReturn.cs",
@@ -472,7 +812,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 26,
+=======
+              "DocumentIndex": 27,
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "Title": "PurchaseItem.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Models\\PurchaseItem.cs",
               "RelativeDocumentMoniker": "CoreERP\\Models\\PurchaseItem.cs",
@@ -484,7 +828,35 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 28,
+=======
+              "DocumentIndex": 23,
+              "Title": "StatusCode.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\StatusCode.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Models\\StatusCode.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\StatusCode.cs",
+              "RelativeToolTip": "CoreERP\\Models\\StatusCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:57:31.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Vendor.cs",
+              "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\Vendor.cs",
+              "RelativeDocumentMoniker": "CoreERP\\Models\\Vendor.cs",
+              "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Models\\Vendor.cs",
+              "RelativeToolTip": "CoreERP\\Models\\Vendor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:58:04.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "CoreERP\\Models\\Employee.cs",
@@ -496,7 +868,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 27,
+=======
+              "DocumentIndex": 28,
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Models\\Inventory.cs",
               "RelativeDocumentMoniker": "CoreERP\\Models\\Inventory.cs",
@@ -508,6 +884,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 29,
               "Title": "AddServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\Extensions\\AddServiceExtensions.cs",
@@ -520,6 +897,8 @@
             },
             {
               "$type": "Document",
+=======
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
               "DocumentIndex": 30,
               "Title": "CoreERP.csproj",
               "DocumentMoniker": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\CoreERP.csproj",
