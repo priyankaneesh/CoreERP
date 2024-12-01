@@ -13,12 +13,17 @@ namespace CoreERP.Repository
             
             _context = context;
         }
-        public Login GetUserLogin(Login  loginDtos)
+        public Login GetUserLogin(LoginDtos loginDtos)
         {
+            // Hash the incoming password to match the stored hashed password
+          //  string hashedPassword = HashPassword(loginDtos.Password);
 
-            return _context.Login.Where(x => x.Username == loginDtos.Username && x.Password == loginDtos.Password).FirstOrDefault();
-
+            // Fetch user based on Username and hashed password
+            return _context.Login.Where(x => x.Username == loginDtos.Username && x.Password == loginDtos.Password)
+                           .FirstOrDefault();
         }
+ 
+         
 
     }
 }

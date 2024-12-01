@@ -5,6 +5,6 @@ namespace CoreERP.Interfaces
 {
     public interface IUserRepo
     {
-        public Login GetUserLogin(Login  loginDtos);
+        public Login GetUserLogin(LoginDtos  loginDtos);
     }
 }
