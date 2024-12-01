@@ -1,0 +1,54 @@
+﻿   @model CoreERP.Dtos.LoginDtos
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="col-lg-6 form-container mx-auto rounded border p-4 shadow">
+        <h2 class="text-center mb-4">Login</h2>
+
+        <!-- Display Error Message -->
+        @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>@ViewBag.ErrorMessage</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        <!-- Display Success Message -->
+        @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>@ViewBag.SuccessMessage</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        <form method="post">
+            <!-- Username Section -->
+            <div class="form-group row mb-3">
+                <label class="form-label col-sm-4">Username</label>
+                <div class="col-sm-8">
+                    <input type="text" asp-for="Username" class="form-control" name="Username" placeholder="Enter your username" required />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Password Section -->
+            <div class="form-group row mb-3">
+                <label class="form-label col-sm-4">Password</label>
+                <div class="col-sm-8">
+                    <input type="password" asp-for="Password" class="form-control" name="Password" placeholder="Enter your password" required />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Submit and Cancel Buttons -->
+            <div class="row mb-3">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-secondary" href="/">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div> 

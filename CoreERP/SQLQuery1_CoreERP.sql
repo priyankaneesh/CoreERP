@@ -1,6 +1,22 @@
 create database CoreERPDB
 use CoreERPDB
- 
+drop database CoreERPDB
+ drop table login
+ CREATE TABLE Login (
+     
+    Username VARCHAR(50) NOT NULL,                      -- Username for login
+    PasswordHash VARCHAR(255) NOT NULL,                 -- Encrypted password
+    Role VARCHAR(20) NOT NULL DEFAULT 'Admin',          -- Role of the user (default is Admin)
+    CreatedAt DATETIME DEFAULT GETDATE()                -- Timestamp for when the user was created
+);
+
+INSERT INTO Login (Username, Password, Role, CreatedAt)
+VALUES 
+('admin', HASHBYTES('SHA2_256', 'admin123'), 'Admin', GETDATE());
+
+
+
+select * from Login
 ----create table Company
  CREATE TABLE Company (
     CompanyID UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
