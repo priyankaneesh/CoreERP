@@ -40,6 +40,6 @@ public partial class CoreErpdbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=priyanka;Initial Catalog=CoreERPDB;Integrated Security=True;Trust Server Certificate=True");
+        optionsBuilder.UseSqlServer("Data Source=LAPTOP-5M9L3AJN\\MSSQLSERVER02;Initial Catalog=erp;Integrated Security=True;Trust Server Certificate=True");
     }
 }

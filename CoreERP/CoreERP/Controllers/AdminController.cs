@@ -30,9 +30,14 @@ namespace CoreERP.Controllers
                 var Log = _userService.GetUserLogin(login);
                 if(Log != null)
                 {
-
+                    RedirectToAction("RegisterCompany","Admin");
                 }
             }
+            return View();
+        }
+        [HttpGet]
+        public IActionResult RegisterCompany()
+        {
             return View();
         }
 
