@@ -42,7 +42,9 @@ namespace CoreERP.Controllers
                     //if(Log.Role=="Role")
                     //{
                     //    HttpContext.Session.SetString("Role", "Admin");
-                        return RedirectToAction("Index", "Admin");
+                    var loggedInUserRole = HttpContext.Session.GetString("UserRole");
+                    ViewBag.Role = loggedInUserRole;
+                    return RedirectToAction("Index", "Admin");
                     //}
                 }
                 else

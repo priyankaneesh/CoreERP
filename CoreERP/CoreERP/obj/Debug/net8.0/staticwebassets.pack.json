@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\image\\CoreErp.webp"
     },
     {
-      "Id": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\image\\CoreErpLogo.webp",
-      "PackagePath": "staticwebassets\\image\\CoreErpLogo.webp"
-    },
-    {
       "Id": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
