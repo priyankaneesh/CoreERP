@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ybYnqwB+HtHpMIcl4buz/iH8edUX8Fko+MwUbCNoG4A=",
+  "Hash": "ZCKrsNx0qtSvil7vAn64dCqkRBkaLtRTpd8kPCS8bfU=",
   "Source": "CoreERP",
   "BasePath": "_content/CoreERP",
   "Mode": "Default",
@@ -110,25 +110,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\CoreErp.webp"
-    },
-    {
-      "Identity": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\image\\CoreErpLogo.webp",
-      "SourceId": "CoreERP",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\",
-      "BasePath": "_content/CoreERP",
-      "RelativePath": "image/CoreErpLogo.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\CoreErpLogo.webp"
     },
     {
       "Identity": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\wwwroot\\js\\site.js",
