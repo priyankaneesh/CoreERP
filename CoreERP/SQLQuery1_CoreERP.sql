@@ -12,7 +12,8 @@ drop database CoreERPDB
 
 INSERT INTO Login (Username, Password, Role, CreatedAt)
 VALUES 
-('admin', HASHBYTES('SHA2_256', 'admin123'), 'Admin', GETDATE());
+('admin1', 'admin123', 'Admin', GETDATE());
+
 
 
 

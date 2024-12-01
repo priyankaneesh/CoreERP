@@ -12,7 +12,7 @@ public UserService(IUserRepo userRepository)
         {
             _userRepository = userRepository;
         }
-        public Login GetUserLogin(Login  loginDtos)
+        public Login GetUserLogin(LoginDtos  loginDtos)
         {
 
             return _userRepository.GetUserLogin(loginDtos);
