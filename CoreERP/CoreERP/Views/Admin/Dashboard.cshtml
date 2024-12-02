@@ -1,0 +1,22 @@
+﻿@model CoreERP.Models.Company
+
+<div class="container mt-4">
+    <h1>Welcome to Your Company Dashboard</h1>
+    <div class="card mt-4">
+        <div class="card-header">
+            <h2>@Model.Name</h2>
+        </div>
+        <div class="card-body">
+            <p><strong>Address:</strong> @Model.Address</p>
+            <p><strong>GST Number:</strong> @Model.Gstnumber</p>
+            <p><strong>Phone:</strong> @Model.Phone</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Website:</strong> @Model.Website</p>
+            <p><strong>Capital:</strong> @string.Format("{0:C}", Model.Capital)</p>
+            <p><strong>Income:</strong> @string.Format("{0:C}", Model.Income)</p>
+        </div>
+        <div class="card-footer">
+            <a href="/Company/Edit/@Model.CompanyId" class="btn btn-primary">Edit</a>
+        </div>
+    </div>
+</div>
