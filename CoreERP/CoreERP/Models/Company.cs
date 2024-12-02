@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CoreERP.Models;
 
@@ -24,4 +25,9 @@ public partial class Company
     public decimal? Capital { get; set; }
 
     public decimal? Income { get; set; }
+    [ForeignKey("Login")]
+    public int LoginId { get; set; }
+
+    // Navigation property for Login
+    public virtual Login Login { get; set; } = null!;
 }
