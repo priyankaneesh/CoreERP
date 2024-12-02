@@ -30,9 +30,6 @@ select * from Login
     Capital DECIMAL(18, 2),
     Income DECIMAL(18, 2)
 );
-INSERT INTO Companies(CompanyId, Name, Address, Gstnumber, Phone, Email, Website, Capital, Income, LoginId)
-VALUES 
-(NEWID(), 'EcoFinTech', 'Chennai, 12B Street', '27AAAAA1234A1Z5', '1234567890', 'ecofintech@gmail.com', 'www.ecofintech.com', 100000.00, 0, 7);
 
 
 

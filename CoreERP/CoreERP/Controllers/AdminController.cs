@@ -41,6 +41,9 @@ namespace CoreERP.Controllers
                 //HttpContext.Session.SetString("Role", Log.Role.ToString());
                 if (Log != null)
                 {
+<<<<<<< HEAD
+                    RedirectToAction("RegisterCompany","Admin");
+=======
 
                     //if(Log.Role=="Role")
                     //{
@@ -55,12 +58,21 @@ namespace CoreERP.Controllers
                 else
                 {
                     ViewBag.errorMessage = "Login Failed";
+>>>>>>> cf69d8e8159a309aac14902bcf6a99bdb8b7f5f4
                 }
             }
             return View();
         }
+<<<<<<< HEAD
+        [HttpGet]
+        public IActionResult RegisterCompany()
+        {
+            return View();
+        }
+=======
         //public IActionResult CompanyRegistration(CompanyDtos companyDtos)
         //{
+>>>>>>> 7fa84925776ca15689d9e599db1f4f2391239fa1
 
         //}
 
