@@ -82,7 +82,7 @@ namespace CoreERP.Controllers
 
             if (company == null)
             {
-                return View("NoCompany"); // Show a view if no company is linked to this user
+                return RedirectToAction("Index", "Admin"); ; // Show a view if no company is linked to this user
             }
 
             return View(company);
