@@ -6,5 +6,6 @@ namespace CoreERP.Interfaces
     public interface IUserRepo
     {
         public Login GetUserLogin(LoginDtos  loginDtos);
+        public  Task<List<Vendor>> GetVendorsFromRepoMethod();
     }
 }

@@ -6,30 +6,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CoreERP.Migrations
 {
     /// <inheritdoc />
-    public partial class Login : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Companies",
-                columns: table => new
-                {
-                    CompanyId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Gstnumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Website = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Capital = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    Income = table.Column<decimal>(type: "decimal(18,2)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Companies", x => x.CompanyId);
-                });
-
             migrationBuilder.CreateTable(
                 name: "Inventories",
                 columns: table => new
@@ -91,6 +72,32 @@ namespace CoreERP.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_StatusCodes", x => x.StatusCode1);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Companies",
+                columns: table => new
+                {
+                    CompanyId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Gstnumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Website = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Capital = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
+                    Income = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
+                    LoginId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Companies", x => x.CompanyId);
+                    table.ForeignKey(
+                        name: "FK_Companies_Login_LoginId",
+                        column: x => x.LoginId,
+                        principalTable: "Login",
+                        principalColumn: "LoginId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -189,6 +196,7 @@ namespace CoreERP.Migrations
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Website = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     StatusCode = table.Column<int>(type: "int", nullable: false),
+                    OutstandingAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
                     StatusCodeNavigationStatusCode1 = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -209,7 +217,9 @@ namespace CoreERP.Migrations
                     PurchaseId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     VendorId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     PurchaseDate = table.Column<DateOnly>(type: "date", nullable: true),
-                    TotalAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: true)
+                    TotalAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
+                    PaidAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Status = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -281,6 +291,11 @@ namespace CoreERP.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Companies_LoginId",
+                table: "Companies",
+                column: "LoginId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Employees_StatusCodeNavigationStatusCode1",
                 table: "Employees",
                 column: "StatusCodeNavigationStatusCode1");
@@ -346,9 +361,6 @@ namespace CoreERP.Migrations
                 name: "Employees");
 
             migrationBuilder.DropTable(
-                name: "Login");
-
-            migrationBuilder.DropTable(
                 name: "PurchaseItems");
 
             migrationBuilder.DropTable(
@@ -359,6 +371,9 @@ namespace CoreERP.Migrations
 
             migrationBuilder.DropTable(
                 name: "SalesReturns");
+
+            migrationBuilder.DropTable(
+                name: "Login");
 
             migrationBuilder.DropTable(
                 name: "Purchases");
