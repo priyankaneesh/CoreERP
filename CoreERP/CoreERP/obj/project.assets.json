@@ -4077,24 +4077,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aslam\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\CoreERP.csproj",
+      "projectUniqueName": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\CoreERP.csproj",
       "projectName": "CoreERP",
-      "projectPath": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\CoreERP.csproj",
-      "packagesPath": "C:\\Users\\aslam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aslam\\source\\CoreERP\\CoreERP\\CoreERP\\obj\\",
+      "projectPath": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\CoreERP.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\aslam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4168,7 +4163,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
