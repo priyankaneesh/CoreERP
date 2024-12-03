@@ -42,6 +42,7 @@ namespace CoreERP.Controllers
                 if (Log != null)
                 {
 
+
                     //if(Log.Role=="Role")
                     //{
                     //    HttpContext.Session.SetString("Role", "Admin");
@@ -62,6 +63,7 @@ namespace CoreERP.Controllers
             }
             return View();
         }
+
         //public IActionResult CompanyRegistration(CompanyDtos companyDtos)
         //{
 

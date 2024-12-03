@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\project\\CoreERP\\CoreERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|solutionrelative:coreerp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9691B448-5983-43DB-9CFB-3EE2AE70EA13}|CoreERP\\CoreERP.csproj|d:\\project\\coreerp\\coreerp\\coreerp\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -154,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -166,8 +166,7 @@
               "RelativeToolTip": "CoreERP\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-26T12:41:29.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:41:29.382Z"
             },
             {
               "$type": "Document",
@@ -179,8 +178,7 @@
               "RelativeToolTip": "CoreERP\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:41:29.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:41:29.031Z"
             },
             {
               "$type": "Document",
@@ -192,18 +190,17 @@
               "RelativeToolTip": "CoreERP\\Views\\Shared\\_LayoutAdmin.cshtml",
               "ViewState": "AgIAAG8AAAAAAAAAAAAAAEUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T08:57:28.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T08:57:28.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "CoreERP\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Controllers\\AdminController.cs",
               "RelativeToolTip": "CoreERP\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAkwFoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwEIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T06:06:23.908Z",
               "EditorCaption": ""
@@ -218,12 +215,11 @@
               "RelativeToolTip": "CoreERP\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAwCQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T15:09:07.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T15:09:07.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Views\\Admin\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "CoreERP\\Views\\Admin\\Dashboard.cshtml",
@@ -244,8 +240,7 @@
               "RelativeToolTip": "CoreERP\\Views\\Admin\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T06:21:32.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:21:32.442Z"
             },
             {
               "$type": "Document",
@@ -257,8 +252,7 @@
               "RelativeToolTip": "CoreERP\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T15:08:58.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T15:08:58.07Z"
             },
             {
               "$type": "Document",
@@ -270,8 +264,7 @@
               "RelativeToolTip": "CoreERP\\CoreERP.csproj",
               "ViewState": "AgIAABAAAACA3KghLDQRwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-26T12:37:11.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:37:11.382Z"
             },
             {
               "$type": "Document",
@@ -283,8 +276,7 @@
               "RelativeToolTip": "CoreERP\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T07:19:43.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T07:19:43.72Z"
             },
             {
               "$type": "Document",
@@ -296,8 +288,7 @@
               "RelativeToolTip": "CoreERP\\Extensions\\AddServiceExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:34:31.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:34:31.993Z"
             },
             {
               "$type": "Document",
@@ -309,8 +300,7 @@
               "RelativeToolTip": "CoreERP\\Services\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:29:26.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:29:26.01Z"
             },
             {
               "$type": "Document",
@@ -322,8 +312,7 @@
               "RelativeToolTip": "CoreERP\\Models\\CoreErpdbContext.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAA1wCAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:25:48.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:25:48.656Z"
             },
             {
               "$type": "Document",
@@ -335,8 +324,7 @@
               "RelativeToolTip": "CoreERP\\Repository\\UserRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAjwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:38:14.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:38:14.548Z"
             },
             {
               "$type": "Document",
@@ -348,8 +336,7 @@
               "RelativeToolTip": "CoreERP\\Models\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:37:14.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T05:37:14.918Z"
             },
             {
               "$type": "Document",
@@ -361,8 +348,7 @@
               "RelativeToolTip": "CoreERP\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:31:20.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:31:20.7Z"
             },
             {
               "$type": "Document",
@@ -374,8 +360,7 @@
               "RelativeToolTip": "CoreERP\\Models\\Company.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:54:48.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T05:54:48.589Z"
             },
             {
               "$type": "Document",
@@ -387,8 +372,7 @@
               "RelativeToolTip": "CoreERP\\Helper\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:35:22.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:35:22.779Z"
             },
             {
               "$type": "Document",
@@ -400,8 +384,7 @@
               "RelativeToolTip": "CoreERP\\Migrations\\20241201161255_UserAddToCompany.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:12:56.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T16:12:56.056Z"
             },
             {
               "$type": "Document",
@@ -413,8 +396,7 @@
               "RelativeToolTip": "CoreERP\\Models\\Purchase.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwBUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:00:04.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:00:04.799Z"
             },
             {
               "$type": "Document",
@@ -426,8 +408,7 @@
               "RelativeToolTip": "CoreERP\\Dtos\\CompanyDtos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:31:38.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T15:31:38.043Z"
             },
             {
               "$type": "Document",
@@ -439,8 +420,7 @@
               "RelativeToolTip": "CoreERP\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:37:24.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T15:37:24.669Z"
             },
             {
               "$type": "Document",
@@ -452,8 +432,7 @@
               "RelativeToolTip": "CoreERP\\Models\\Sale.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:00:21.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:00:21.116Z"
             },
             {
               "$type": "Document",
@@ -465,8 +444,7 @@
               "RelativeToolTip": "CoreERP\\Interfaces\\IUserRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:31:42.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:31:42.35Z"
             },
             {
               "$type": "Document",
@@ -478,8 +456,7 @@
               "RelativeToolTip": "CoreERP\\Dtos\\LoginDtos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:35:54.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T05:35:54.789Z"
             },
             {
               "$type": "Document",
@@ -491,8 +468,7 @@
               "RelativeToolTip": "CoreERP\\Migrations\\20241201060048_Login.cs",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAQwAsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:00:48.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:00:48.777Z"
             },
             {
               "$type": "Document",
@@ -504,8 +480,7 @@
               "RelativeToolTip": "CoreERP\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T15:37:30.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T15:37:30.897Z"
             },
             {
               "$type": "Document",
@@ -517,8 +492,7 @@
               "RelativeToolTip": "CoreERP\\Models\\SalesItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:00:24.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:00:24.963Z"
             },
             {
               "$type": "Document",
@@ -530,8 +504,7 @@
               "RelativeToolTip": "CoreERP\\Models\\SalesReturn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:00:28.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:00:28.735Z"
             },
             {
               "$type": "Document",
@@ -543,8 +516,7 @@
               "RelativeToolTip": "CoreERP\\Models\\PurchaseReturn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:00:16.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:00:16.485Z"
             },
             {
               "$type": "Document",
@@ -556,8 +528,7 @@
               "RelativeToolTip": "CoreERP\\Models\\PurchaseItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:00:08.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T06:00:08.932Z"
             },
             {
               "$type": "Document",
@@ -569,8 +540,7 @@
               "RelativeToolTip": "CoreERP\\Models\\StatusCode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:57:31.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T05:57:31.46Z"
             },
             {
               "$type": "Document",
@@ -582,8 +552,7 @@
               "RelativeToolTip": "CoreERP\\Models\\Vendor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:58:04.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T05:58:04.797Z"
             },
             {
               "$type": "Document",
@@ -595,8 +564,7 @@
               "RelativeToolTip": "CoreERP\\Models\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:59:49.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T05:59:49.618Z"
             },
             {
               "$type": "Document",
@@ -608,8 +576,7 @@
               "RelativeToolTip": "CoreERP\\Models\\Inventory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:59:20.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T05:59:20.86Z"
             },
             {
               "$type": "Document",
@@ -621,8 +588,7 @@
               "RelativeToolTip": "CoreERP\\Exceptions\\CustomException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:34:53.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:34:53.878Z"
             }
           ]
         }
