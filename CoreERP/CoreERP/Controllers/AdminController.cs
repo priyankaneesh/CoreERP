@@ -91,7 +91,23 @@ namespace CoreERP.Controllers
 
             return View(company); // Pass the company model to the view
         }
+        [HttpGet]
+        public async Task<IActionResult> VenderListing()
+        {
+            int userLoginId = HttpContext.Session.GetInt32("LoginId") ?? 0;
+            if (userLoginId == 0)
+            {
+                ViewBag.ErrorMessage = "You are not logged in. Please log in first.";
+                return RedirectToAction("Login"); // Redirect to login if session is not set
+            }
+
+             
+
+            List<Vendor> vendors = await _userService.GetVendorsFromServiceMethod();
+            return View(vendors);
+        }
     }
+    
 
 
 }

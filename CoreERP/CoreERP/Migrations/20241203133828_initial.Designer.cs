@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoreERP.Migrations
 {
     [DbContext(typeof(CoreErpdbContext))]
-    [Migration("20241201060048_Login")]
-    partial class Login
+    [Migration("20241203133828_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,6 +46,9 @@ namespace CoreERP.Migrations
                     b.Property<decimal?>("Income")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("LoginId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -57,6 +60,8 @@ namespace CoreERP.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("CompanyId");
+
+                    b.HasIndex("LoginId");
 
                     b.ToTable("Companies");
                 });
@@ -172,8 +177,14 @@ namespace CoreERP.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<decimal>("PaidAmount")
+                        .HasColumnType("decimal(18, 2)");
+
                     b.Property<DateOnly?>("PurchaseDate")
                         .HasColumnType("date");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<decimal?>("TotalAmount")
                         .HasColumnType("decimal(18,2)");
@@ -379,6 +390,9 @@ namespace CoreERP.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal?>("OutstandingAmount")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
@@ -396,6 +410,17 @@ namespace CoreERP.Migrations
                     b.HasIndex("StatusCodeNavigationStatusCode1");
 
                     b.ToTable("Vendors");
+                });
+
+            modelBuilder.Entity("CoreERP.Models.Company", b =>
+                {
+                    b.HasOne("CoreERP.Models.Login", "Login")
+                        .WithMany()
+                        .HasForeignKey("LoginId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Login");
                 });
 
             modelBuilder.Entity("CoreERP.Models.Employee", b =>

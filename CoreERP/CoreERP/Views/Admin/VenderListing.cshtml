@@ -1,0 +1,38 @@
+﻿@model List<CoreERP.Models.Vendor>
+
+@{
+    ViewData["Title"] = "Vendors";
+    Layout = "_LayoutAdmin";
+}
+
+<h1>Vendors</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>GST Number</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Website</th>
+            <th>Status</th>
+            <th>Outstanding Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vendor in Model)
+        {
+            <tr>
+                <td>@vendor.Name</td>
+                <td>@vendor.Address</td>
+                <td>@vendor.Gstnumber</td>
+                <td>@vendor.Phone</td>
+                <td>@vendor.Email</td>
+                <td>@vendor.Website</td>
+                <td>@vendor.StatusCode</td>
+                <td>@vendor.OutstandingAmount</td>
+            </tr>
+        }
+    </tbody>
+</table>

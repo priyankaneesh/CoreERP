@@ -1,6 +1,7 @@
 ﻿using CoreERP.Dtos;
 using CoreERP.Interfaces;
 using CoreERP.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CoreERP.Repository
 {
@@ -22,8 +23,12 @@ namespace CoreERP.Repository
             return _context.Login.Where(x => x.Username == loginDtos.Username && x.Password == loginDtos.Password)
                            .FirstOrDefault();
         }
- 
-         
+
+        public async Task<List<Vendor>> GetVendorsFromRepoMethod()
+        {
+            return await _context.Vendors.ToListAsync();
+        }
+
 
     }
 }

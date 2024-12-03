@@ -4,6 +4,7 @@ using CoreERP.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoreERP.Migrations
 {
     [DbContext(typeof(CoreErpdbContext))]
-    partial class CoreErpdbContextModelSnapshot : ModelSnapshot
+    [Migration("20241203134730_initial1")]
+    partial class initial1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -396,12 +399,15 @@ namespace CoreERP.Migrations
                     b.Property<int>("StatusCode")
                         .HasColumnType("int");
 
+                    b.Property<int>("StatusCodeNavigationStatusCode1")
+                        .HasColumnType("int");
+
                     b.Property<string>("Website")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("VendorId");
 
-                    b.HasIndex("StatusCode");
+                    b.HasIndex("StatusCodeNavigationStatusCode1");
 
                     b.ToTable("Vendors");
                 });
@@ -519,7 +525,7 @@ namespace CoreERP.Migrations
                 {
                     b.HasOne("CoreERP.Models.StatusCode", "StatusCodeNavigation")
                         .WithMany("Vendors")
-                        .HasForeignKey("StatusCode")
+                        .HasForeignKey("StatusCodeNavigationStatusCode1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

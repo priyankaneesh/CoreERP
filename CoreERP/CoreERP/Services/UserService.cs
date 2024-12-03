@@ -1,6 +1,7 @@
 ﻿using CoreERP.Dtos;
 using CoreERP.Interfaces;
 using CoreERP.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CoreERP.Services
 {
@@ -16,6 +17,10 @@ public UserService(IUserRepo userRepository)
         {
 
             return _userRepository.GetUserLogin(loginDtos);
+        }
+        public async Task<List<Vendor>> GetVendorsFromServiceMethod()
+        {
+            return await _userRepository.GetVendorsFromRepoMethod();
         }
     }
 }
