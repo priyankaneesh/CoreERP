@@ -47,10 +47,13 @@ namespace CoreERP.Controllers
                     //{
                     //    HttpContext.Session.SetString("Role", "Admin");
                     var loggedInUserRole = HttpContext.Session.GetString("Role");
+                    HttpContext.Session.SetInt32("LoginId", Log.LoginId);
+
                     HttpContext.Session.SetString("Role", Log.Role);
                     HttpContext.Session.SetString("Username", Log.Username);
                     ViewBag.Role = Log.Role;
-                    return RedirectToAction("Index", "Admin");
+                     
+                    return RedirectToAction("Dashboard", "Admin");
                     //}
                 }
                 else
@@ -68,13 +71,13 @@ namespace CoreERP.Controllers
 
         [HttpGet]
         public IActionResult Dashboard()
-        {
-            // Retrieve LoginId from the session
+        {// Retrieve LoginId from session
             int userLoginId = HttpContext.Session.GetInt32("LoginId") ?? 0;
 
             if (userLoginId == 0)
             {
-                ViewBag.ErrorMessage = "LoginId not found in session."; // Redirect if no LoginId found in session
+                ViewBag.ErrorMessage = "You are not logged in. Please log in first.";
+                return RedirectToAction("Login"); // Redirect to login if session is not set
             }
 
             // Fetch company data for the logged-in user
@@ -82,10 +85,11 @@ namespace CoreERP.Controllers
 
             if (company == null)
             {
-                return View("NoCompany"); // Show a view if no company is linked to this user
+                ViewBag.ErrorMessage = "No company associated with this user.";
+                return View("NoCompany"); // Show a view indicating no company linked
             }
 
-            return View(company);
+            return View(company); // Pass the company model to the view
         }
     }
 

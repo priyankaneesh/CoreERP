@@ -1,22 +1,72 @@
 ﻿@model CoreERP.Models.Company
-
+@{
+    ViewData["Title"] = "Admin";
+    Layout = "_LayoutAdmin";
+}
 <div class="container mt-4">
-    <h1>Welcome to Your Company Dashboard</h1>
-    <div class="card mt-4">
-        <div class="card-header">
-            <h2>@Model.Name</h2>
+    <h1 class="mt-4 pt-5">Welcome to Your Company Dashboard</h1>
+   <div class="row d-flex flex-row">
+        <div class="card mt-4 col-xl-8">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-md-4 col-xl-6">
+                        <div class="card bg-c-blue order-card">
+                            <div class="card-block">
+                                <h6 class="m-b-20">Inventory</h6>
+                                <h2 class="text-right"><i class="fa fa-cart-plus f-left fs-1  me-5"></i><span>486</span></h2>
+                                <p class="m-b-0">Completed Orders<span class="f-right">351</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xl-6">
+                        <div class="card bg-c-green order-card">
+                            <div class="card-block">
+                                <h6 class="m-b-20">Sales</h6>
+                                <h2 class="text-right"><i class="fa fa-rocket f-left fs-1  me-5"></i><span>486</span></h2>
+                                <p class="m-b-0">Completed Orders<span class="f-right">351</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xl-6">
+                        <div class="card bg-c-yellow order-card">
+                            <div class="card-block">
+                                <h6 class="m-b-20">Purchase</h6>
+                                <h2 class="text-right"><i class="fa fa-refresh f-left  fs-1  me-5"></i><span>486</span></h2>
+                                <p class="m-b-0">Completed Orders<span class="f-right">351</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xl-6">
+                        <div class="card bg-c-pink order-card">
+                            <div class="card-block">
+                                <h6 class="m-b-20">Expenses</h6>
+                                <h2 class="text-right"><i class="fa fa-credit-card f-left fs-1 me-5"></i><span>486</span></h2>
+                                <p class="m-b-0">Completed Orders<span class="f-right">351</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-            <p><strong>Address:</strong> @Model.Address</p>
-            <p><strong>GST Number:</strong> @Model.Gstnumber</p>
-            <p><strong>Phone:</strong> @Model.Phone</p>
-            <p><strong>Email:</strong> @Model.Email</p>
-            <p><strong>Website:</strong> @Model.Website</p>
-            <p><strong>Capital:</strong> @string.Format("{0:C}", Model.Capital)</p>
-            <p><strong>Income:</strong> @string.Format("{0:C}", Model.Income)</p>
+        <div class="card mt-4 col-xl-4">
+            <div class="card-header">
+                <h2>@Model.Name</h2>
+            </div>
+            <div class="card-body">
+                <p><strong>Address:</strong> @Model.Address</p>
+                <p><strong>GST Number:</strong> @Model.Gstnumber</p>
+                <p><strong>Phone:</strong> @Model.Phone</p>
+                <p><strong>Email:</strong> @Model.Email</p>
+                <p><strong>Website:</strong> @Model.Website</p>
+                <p><strong>Capital:</strong> @string.Format("{0:C}", Model.Capital)</p>
+                <p><strong>Income:</strong> @string.Format("{0:C}", Model.Income)</p>
+            </div>
+            <div class="card-footer">
+                <a href="/Company/Edit/@Model.CompanyId" class="btn btn-primary">Edit</a>
+            </div>
         </div>
-        <div class="card-footer">
-            <a href="/Company/Edit/@Model.CompanyId" class="btn btn-primary">Edit</a>
-        </div>
-    </div>
+   </div>
 </div>
