@@ -6,13 +6,15 @@ namespace CoreERP.Models;
 
 public partial class CoreErpdbContext : DbContext
 {
+    private IConfiguration _configuration;
     public CoreErpdbContext()
     {
     }
 
-    public CoreErpdbContext(DbContextOptions<CoreErpdbContext> options)
+    public CoreErpdbContext(DbContextOptions<CoreErpdbContext> options,IConfiguration configuration)
         : base(options)
     {
+        _configuration = configuration;
     }
 
     public virtual DbSet<Login> Login { get; set; }
@@ -40,6 +42,6 @@ public partial class CoreErpdbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=LAPTOP-5M9L3AJN\\MSSQLSERVER02;Initial Catalog=erp;Integrated Security=True;Trust Server Certificate=True");
+        optionsBuilder.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));
     }
 }
