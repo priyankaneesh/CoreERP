@@ -4,3 +4,6 @@
 
 /CoreERP/CoreERP/appsettings.json
 /CoreERP/CoreERP/appsettings.json
+/CoreERP/.vs/CoreERP/v17/DocumentLayout.json
+/.gitignore
+/CoreERP/CoreERP/obj/Debug/net8.0/CoreERP.sourcelink.json

@@ -86,7 +86,7 @@ namespace CoreERP.Controllers
             if (company == null)
             {
                 ViewBag.ErrorMessage = "No company associated with this user.";
-                return View("NoCompany"); // Show a view indicating no company linked
+                return View(); // Show a view indicating no company linked
             }
 
             return View(company); // Pass the company model to the view
