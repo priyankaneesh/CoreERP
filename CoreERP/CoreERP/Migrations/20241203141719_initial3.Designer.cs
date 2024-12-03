@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoreERP.Migrations
 {
     [DbContext(typeof(CoreErpdbContext))]
-    [Migration("20241201074247_initial")]
-    partial class initial
+    [Migration("20241203141719_initial3")]
+    partial class initial3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,6 +46,9 @@ namespace CoreERP.Migrations
                     b.Property<decimal?>("Income")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("LoginId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -57,6 +60,8 @@ namespace CoreERP.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("CompanyId");
+
+                    b.HasIndex("LoginId");
 
                     b.ToTable("Companies");
                 });
@@ -172,8 +177,14 @@ namespace CoreERP.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<decimal>("PaidAmount")
+                        .HasColumnType("decimal(18, 2)");
+
                     b.Property<DateOnly?>("PurchaseDate")
                         .HasColumnType("date");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<decimal?>("TotalAmount")
                         .HasColumnType("decimal(18,2)");
@@ -379,13 +390,13 @@ namespace CoreERP.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal?>("OutstandingAmount")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("StatusCode")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StatusCodeNavigationStatusCode1")
                         .HasColumnType("int");
 
                     b.Property<string>("Website")
@@ -393,9 +404,20 @@ namespace CoreERP.Migrations
 
                     b.HasKey("VendorId");
 
-                    b.HasIndex("StatusCodeNavigationStatusCode1");
+                    b.HasIndex("StatusCode");
 
                     b.ToTable("Vendors");
+                });
+
+            modelBuilder.Entity("CoreERP.Models.Company", b =>
+                {
+                    b.HasOne("CoreERP.Models.Login", "Login")
+                        .WithMany()
+                        .HasForeignKey("LoginId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Login");
                 });
 
             modelBuilder.Entity("CoreERP.Models.Employee", b =>
@@ -500,7 +522,7 @@ namespace CoreERP.Migrations
                 {
                     b.HasOne("CoreERP.Models.StatusCode", "StatusCodeNavigation")
                         .WithMany("Vendors")
-                        .HasForeignKey("StatusCodeNavigationStatusCode1")
+                        .HasForeignKey("StatusCode")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

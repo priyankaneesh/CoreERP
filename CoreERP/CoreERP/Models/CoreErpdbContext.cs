@@ -7,14 +7,18 @@ namespace CoreERP.Models;
 
 public partial class CoreErpdbContext : DbContext
 {
-    private readonly IConfiguration _configuration;
-   
-    public CoreErpdbContext(DbContextOptions<CoreErpdbContext> options)
-        : base(options)
+    private IConfiguration _configuration;
+    public CoreErpdbContext()
     {
     }
 
-  
+    public CoreErpdbContext(DbContextOptions<CoreErpdbContext> options, IConfiguration configuration)
+        : base(options)
+    {
+        _configuration = configuration;
+    }
+
+
     public virtual DbSet<Login> Login { get; set; }
     public virtual DbSet<Company> Companies { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
@@ -29,7 +33,7 @@ public partial class CoreErpdbContext : DbContext
         public virtual DbSet<Vendor> Vendors { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=priyanka;Initial Catalog=CoreERPDB;Integrated Security=True;Trust Server Certificate=True");
+        optionsBuilder.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));
     }
     //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //{

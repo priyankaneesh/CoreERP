@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoreERP.Migrations
 {
     [DbContext(typeof(CoreErpdbContext))]
-    [Migration("20241201161255_UserAddToCompany")]
-    partial class UserAddToCompany
+    [Migration("20241203135420_initial2")]
+    partial class initial2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -177,8 +177,14 @@ namespace CoreERP.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<decimal>("PaidAmount")
+                        .HasColumnType("decimal(18, 2)");
+
                     b.Property<DateOnly?>("PurchaseDate")
                         .HasColumnType("date");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<decimal?>("TotalAmount")
                         .HasColumnType("decimal(18,2)");
@@ -383,6 +389,9 @@ namespace CoreERP.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("OutstandingAmount")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");

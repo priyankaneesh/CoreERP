@@ -14,7 +14,10 @@ INSERT INTO Login (Username, Password, Role, CreatedAt)
 VALUES 
 ('admin1', 'admin123', 'Admin', GETDATE());
 
-
+INSERT INTO Companies(CompanyId, Name, Address, Gstnumber, Phone, Email, Website, Capital, Income, LoginId)
+VALUES 
+(NEWID(), 'EcoFinTech', 'Chennai, 12B Street', '27AAAAA1234A1Z5', '1234567890', 'ecofintech@gmail.com', 'www.ecofintech.com', 100000.00, 0, 1);
+delete   from Login 
 
 
 select * from Login
@@ -39,11 +42,11 @@ CREATE TABLE StatusCodes (
 );
 
 -- Example Status Codes
-INSERT INTO StatusCodes (StatusCode, StatusDescription)
+INSERT INTO  StatusCodes(  StatusDescription)
 VALUES 
-(1, 'Active'),
-(2, 'Inactive'),
-(3, 'Suspended');
+( 'Active'),
+( 'Inactive'),
+(  'Suspended');
 
 ----create table Accounting
 CREATE TABLE Accounting (
@@ -65,9 +68,17 @@ CREATE TABLE Vendor (
     Email VARCHAR(255),
     Website VARCHAR(255),
     StatusCode INT NOT NULL,
-    CONSTRAINT FK_Vendor_StatusCodes FOREIGN KEY (StatusCode) REFERENCES StatusCodes(StatusCode)
+    CONSTRAINT FK_Vendor_StatusCodes FOREIGN KEY (StatusCode) REFERENCES StatusCodes(StatusCode1)
 );
-
+ -- Insert 5 rows into the Vendor table
+INSERT INTO Vendors 
+    (VendorId, Name, Address, Gstnumber, AccountNumber, Phone, Email, Website, StatusCode, OutstandingAmount)
+VALUES
+    (NEWID(), 'Vendor 1', 'Address 1', 'GST123456789', 'ACC123456', '1234567890', 'vendor1@example.com', 'www.vendor1.com', 1, 1000.00),
+    (NEWID(), 'Vendor 2', 'Address 2', 'GST987654321', 'ACC987654', '0987654321', 'vendor2@example.com', 'www.vendor2.com', 1, 2000.00),
+    (NEWID(), 'Vendor 3', 'Address 3', 'GST112233445', 'ACC112233', '1234509876', 'vendor3@example.com', 'www.vendor3.com', 1, 0.00),
+    (NEWID(), 'Vendor 4', 'Address 4', 'GST223344556', 'ACC223344', '9876543210', 'vendor4@example.com', 'www.vendor4.com', 1, 1500.50),
+    (NEWID(), 'Vendor 5', 'Address 5', 'GST334455667', 'ACC334455', '6543210987', 'vendor5@example.com', 'www.vendor5.com', 1, 500.75);
 
 CREATE TABLE Inventory (
     ItemID UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
