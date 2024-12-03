@@ -200,7 +200,7 @@
               "RelativeDocumentMoniker": "CoreERP\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\project\\CoreERP\\CoreERP\\CoreERP\\Controllers\\AdminController.cs",
               "RelativeToolTip": "CoreERP\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAkwEIAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T06:06:23.908Z",
               "EditorCaption": ""
@@ -227,8 +227,7 @@
               "RelativeToolTip": "CoreERP\\Views\\Admin\\Dashboard.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T17:20:10.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T17:20:10.01Z"
             },
             {
               "$type": "Document",
